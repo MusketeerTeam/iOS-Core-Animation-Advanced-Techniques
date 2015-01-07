@@ -45,10 +45,16 @@
 @property (weak, nonatomic) IBOutlet UIView *anchorView;
 
 @property (weak, nonatomic) IBOutlet UIView *layerView;
+@property (weak, nonatomic) CALayer *blueLayer;
 
 @end
 
 @implementation BoardingFigureViewController
+
+- (void)dealloc
+{
+    self.blueLayer.delegate = nil;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -66,19 +72,19 @@
     [self addSpriteImage:image withContentRect:CGRectMake(0.5, 0.5, 0.5, 0.5) toLayer:self.shipView.layer];
     
     //create sublayer
-    CALayer *blueLayer = [CALayer layer];
-    blueLayer.frame = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);
-    blueLayer.backgroundColor = [UIColor blueColor].CGColor;
+    self.blueLayer = [CALayer layer];
+    self.blueLayer.frame = CGRectMake(50.0f, 50.0f, 100.0f, 100.0f);
+    self.blueLayer.backgroundColor = [UIColor blueColor].CGColor;
     
     //set controller as layer delegate
-    blueLayer.delegate = self;
+    self.blueLayer.delegate = self;
     
     //ensure that layer backing image uses correct scale
-    blueLayer.contentsScale = [UIScreen mainScreen].scale; //add layer to our view
-    [self.layerView.layer addSublayer:blueLayer];
+    self.blueLayer.contentsScale = [UIScreen mainScreen].scale; //add layer to our view
+    [self.layerView.layer addSublayer:self.blueLayer];
     
     //force layer to redraw
-    [blueLayer display];
+    [self.blueLayer display];
 }
 
 - (void)addSpriteImage:(UIImage *)image withContentRect:(CGRect)rect toLayer:(CALayer *)layer //set image

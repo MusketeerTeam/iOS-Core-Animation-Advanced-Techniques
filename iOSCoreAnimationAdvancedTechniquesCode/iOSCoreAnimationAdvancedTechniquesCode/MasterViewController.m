@@ -14,6 +14,7 @@
 #import "BoardingFigureViewController.h"
 #import "LayerOfGeometryViewController.h"
 #import "VisualEffectViewController.h"
+#import "CGAffineTransformViewController.h"
 
 @interface MasterViewController ()
 
@@ -148,7 +149,7 @@
         }
         case 4:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[CGAffineTransformViewController alloc] initWithNibName:@"CGAffineTransformViewController" bundle:nil];
             break;
         }
         case 5:

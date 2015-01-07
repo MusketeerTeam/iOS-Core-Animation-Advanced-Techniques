@@ -28,6 +28,8 @@
 		747F0D681A5BA085005AA981 /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D661A5BA085005AA981 /* VisualEffectViewController.m */; };
 		747F0D691A5BA085005AA981 /* VisualEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D671A5BA085005AA981 /* VisualEffectViewController.xib */; };
 		747F0D6D1A5BA351005AA981 /* Digits.png in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D6C1A5BA351005AA981 /* Digits.png */; };
+		747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */; };
+		747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,9 @@
 		747F0D661A5BA085005AA981 /* VisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectViewController.m; sourceTree = "<group>"; };
 		747F0D671A5BA085005AA981 /* VisualEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisualEffectViewController.xib; sourceTree = "<group>"; };
 		747F0D6C1A5BA351005AA981 /* Digits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digits.png; sourceTree = "<group>"; };
+		747F0D6F1A5BC242005AA981 /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
+		747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
+		747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGAffineTransformViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,7 @@
 				747F0D561A5B85F2005AA981 /* BoardingFigureViewController */,
 				747F0D591A5B8F54005AA981 /* LayerOfGeometry */,
 				747F0D641A5BA05B005AA981 /* VisualEffect */,
+				747F0D6E1A5BC233005AA981 /* CGAffineTransform */,
 				747F0D271A5B73AE005AA981 /* Main.storyboard */,
 				747F0D2A1A5B73AE005AA981 /* Images.xcassets */,
 				747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */,
@@ -204,6 +210,16 @@
 				747F0D6C1A5BA351005AA981 /* Digits.png */,
 			);
 			name = VisualEffect;
+			sourceTree = "<group>";
+		};
+		747F0D6E1A5BC233005AA981 /* CGAffineTransform */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D6F1A5BC242005AA981 /* CGAffineTransformViewController.h */,
+				747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */,
+				747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */,
+			);
+			name = CGAffineTransform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +310,7 @@
 				747F0D291A5B73AE005AA981 /* Main.storyboard in Resources */,
 				747F0D2E1A5B73AE005AA981 /* LaunchScreen.xib in Resources */,
 				747F0D581A5B8A82005AA981 /* Sprites.png in Resources */,
+				747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */,
 				747F0D2B1A5B73AE005AA981 /* Images.xcassets in Resources */,
 				747F0D541A5B85DC005AA981 /* BoardingFigureViewController.xib in Resources */,
 			);
@@ -317,6 +334,7 @@
 				747F0D201A5B73AD005AA981 /* AppDelegate.m in Sources */,
 				747F0D231A5B73AD005AA981 /* MasterViewController.m in Sources */,
 				747F0D1D1A5B73AD005AA981 /* main.m in Sources */,
+				747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */,
 				747F0D451A5B79E1005AA981 /* BasicViewController.m in Sources */,
 				747F0D531A5B85DC005AA981 /* BoardingFigureViewController.m in Sources */,
 				747F0D261A5B73AD005AA981 /* DetailViewController.m in Sources */,
@@ -512,6 +530,7 @@
 				747F0D3F1A5B73AE005AA981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		747F0D401A5B73AE005AA981 /* Build configuration list for PBXNativeTarget "iOSCoreAnimationAdvancedTechniquesCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +539,7 @@
 				747F0D421A5B73AE005AA981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
