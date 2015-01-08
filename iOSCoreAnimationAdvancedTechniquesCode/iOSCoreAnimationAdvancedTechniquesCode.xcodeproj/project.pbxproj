@@ -30,6 +30,14 @@
 		747F0D6D1A5BA351005AA981 /* Digits.png in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D6C1A5BA351005AA981 /* Digits.png */; };
 		747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */; };
 		747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */; };
+		74AF21FF1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */; };
+		74AF22001A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */; };
+		74C9629D1A5E607B00262378 /* SpecialLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */; };
+		74C9629E1A5E607B00262378 /* SpecialLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */; };
+		74C962A01A5E700100262378 /* mao.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C9629F1A5E700100262378 /* mao.png */; };
+		74C962A31A5E72D900262378 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C962A21A5E72D900262378 /* ReflectionView.m */; };
+		74C962A81A5E810000262378 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */; };
+		74C962A91A5E810000262378 /* ImplicitAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +87,18 @@
 		747F0D6F1A5BC242005AA981 /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
 		747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
 		747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGAffineTransformViewController.xib; sourceTree = "<group>"; };
+		74AF21FC1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationViewController.h; sourceTree = "<group>"; };
+		74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationViewController.m; sourceTree = "<group>"; };
+		74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplicitAnimationViewController.xib; sourceTree = "<group>"; };
+		74C9629A1A5E607B00262378 /* SpecialLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayerViewController.h; sourceTree = "<group>"; };
+		74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayerViewController.m; sourceTree = "<group>"; };
+		74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialLayerViewController.xib; sourceTree = "<group>"; };
+		74C9629F1A5E700100262378 /* mao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mao.png; sourceTree = "<group>"; };
+		74C962A11A5E72D900262378 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		74C962A21A5E72D900262378 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		74C962A51A5E810000262378 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImplicitAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +150,14 @@
 				747F0D251A5B73AD005AA981 /* DetailViewController.m */,
 				747F0D431A5B79E1005AA981 /* BasicViewController.h */,
 				747F0D441A5B79E1005AA981 /* BasicViewController.m */,
+				74AF21FB1A5E8F17003AF8D7 /* ExplicitAnimationViewController */,
 				747F0D551A5B85E6005AA981 /* LayerTreeViewController */,
 				747F0D561A5B85F2005AA981 /* BoardingFigureViewController */,
 				747F0D591A5B8F54005AA981 /* LayerOfGeometry */,
 				747F0D641A5BA05B005AA981 /* VisualEffect */,
 				747F0D6E1A5BC233005AA981 /* CGAffineTransform */,
+				74C962961A5E601700262378 /* SpecialLayerViewController */,
+				74C962A41A5E80E700262378 /* ImplicitAnimationViewController */,
 				747F0D271A5B73AE005AA981 /* Main.storyboard */,
 				747F0D2A1A5B73AE005AA981 /* Images.xcassets */,
 				747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */,
@@ -222,6 +245,39 @@
 			name = CGAffineTransform;
 			sourceTree = "<group>";
 		};
+		74AF21FB1A5E8F17003AF8D7 /* ExplicitAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74AF21FC1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.h */,
+				74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */,
+				74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */,
+			);
+			name = ExplicitAnimationViewController;
+			sourceTree = "<group>";
+		};
+		74C962961A5E601700262378 /* SpecialLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74C9629A1A5E607B00262378 /* SpecialLayerViewController.h */,
+				74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */,
+				74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */,
+				74C962A11A5E72D900262378 /* ReflectionView.h */,
+				74C962A21A5E72D900262378 /* ReflectionView.m */,
+				74C9629F1A5E700100262378 /* mao.png */,
+			);
+			name = SpecialLayerViewController;
+			sourceTree = "<group>";
+		};
+		74C962A41A5E80E700262378 /* ImplicitAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74C962A51A5E810000262378 /* ImplicitAnimationViewController.h */,
+				74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */,
+				74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */,
+			);
+			name = ImplicitAnimationViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,9 +363,13 @@
 				747F0D631A5B9E14005AA981 /* 3.4.jpeg in Resources */,
 				747F0D691A5BA085005AA981 /* VisualEffectViewController.xib in Resources */,
 				747F0D4D1A5B7AAA005AA981 /* LayerTreeViewController.xib in Resources */,
+				74C962A01A5E700100262378 /* mao.png in Resources */,
 				747F0D291A5B73AE005AA981 /* Main.storyboard in Resources */,
+				74AF22001A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib in Resources */,
 				747F0D2E1A5B73AE005AA981 /* LaunchScreen.xib in Resources */,
 				747F0D581A5B8A82005AA981 /* Sprites.png in Resources */,
+				74C9629E1A5E607B00262378 /* SpecialLayerViewController.xib in Resources */,
+				74C962A91A5E810000262378 /* ImplicitAnimationViewController.xib in Resources */,
 				747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */,
 				747F0D2B1A5B73AE005AA981 /* Images.xcassets in Resources */,
 				747F0D541A5B85DC005AA981 /* BoardingFigureViewController.xib in Resources */,
@@ -335,9 +395,13 @@
 				747F0D231A5B73AD005AA981 /* MasterViewController.m in Sources */,
 				747F0D1D1A5B73AD005AA981 /* main.m in Sources */,
 				747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */,
+				74C962A31A5E72D900262378 /* ReflectionView.m in Sources */,
 				747F0D451A5B79E1005AA981 /* BasicViewController.m in Sources */,
+				74C9629D1A5E607B00262378 /* SpecialLayerViewController.m in Sources */,
+				74C962A81A5E810000262378 /* ImplicitAnimationViewController.m in Sources */,
 				747F0D531A5B85DC005AA981 /* BoardingFigureViewController.m in Sources */,
 				747F0D261A5B73AD005AA981 /* DetailViewController.m in Sources */,
+				74AF21FF1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m in Sources */,
 				747F0D601A5B8F83005AA981 /* LayerOfGeometryViewController.m in Sources */,
 				747F0D681A5BA085005AA981 /* VisualEffectViewController.m in Sources */,
 			);

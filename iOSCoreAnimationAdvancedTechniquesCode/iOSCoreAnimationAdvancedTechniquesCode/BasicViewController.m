@@ -14,14 +14,15 @@
 
 @implementation BasicViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.mainScrollV = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    self.mainScrollV.backgroundColor = self.view.backgroundColor;
+    [self.view addSubview:self.mainScrollV];
+    
+//    [self.mainScrollV setContentSize:CGSizeMake(0, self.mainScrollV.frame.size.height)];
 }
 
 @end

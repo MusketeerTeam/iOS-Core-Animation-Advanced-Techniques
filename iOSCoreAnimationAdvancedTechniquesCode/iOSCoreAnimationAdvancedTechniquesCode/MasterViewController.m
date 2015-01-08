@@ -15,6 +15,9 @@
 #import "LayerOfGeometryViewController.h"
 #import "VisualEffectViewController.h"
 #import "CGAffineTransformViewController.h"
+#import "SpecialLayerViewController.h"
+#import "ImplicitAnimationViewController.h"
+#import "ExplicitAnimationViewController.h"
 
 @interface MasterViewController ()
 
@@ -154,17 +157,17 @@
         }
         case 5:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[SpecialLayerViewController alloc] initWithNibName:@"SpecialLayerViewController" bundle:nil];
             break;
         }
         case 6:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[ImplicitAnimationViewController alloc] initWithNibName:@"ImplicitAnimationViewController" bundle:nil];
             break;
         }
         case 7:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[ExplicitAnimationViewController alloc] initWithNibName:@"ExplicitAnimationViewController" bundle:nil];
             break;
         }
         case 8:

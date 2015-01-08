@@ -11,4 +11,7 @@
 
 @interface BasicViewController : UIViewController
 
+@property (nonatomic, strong) UIScrollView *mainScrollV;
+@property (nonatomic, assign) float hSpace;
+
 @end

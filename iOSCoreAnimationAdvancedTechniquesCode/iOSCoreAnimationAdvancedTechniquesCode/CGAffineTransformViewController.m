@@ -84,6 +84,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self.mainScrollV removeFromSuperview];
     
     CAGradientLayer *gradient = [CAGradientLayer layer];
     gradient.frame = self.layerView.bounds;
