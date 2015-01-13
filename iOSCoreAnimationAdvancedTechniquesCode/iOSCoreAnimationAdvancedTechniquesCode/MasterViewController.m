@@ -18,6 +18,8 @@
 #import "SpecialLayerViewController.h"
 #import "ImplicitAnimationViewController.h"
 #import "ExplicitAnimationViewController.h"
+#import "LayerTimeViewController.h"
+#import "BufferViewController.h"
 
 @interface MasterViewController ()
 
@@ -172,12 +174,12 @@
         }
         case 8:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[LayerTimeViewController alloc] initWithNibName:@"LayerTimeViewController" bundle:nil];
             break;
         }
         case 9:
         {
-            viewC = [[BoardingFigureViewController alloc] initWithNibName:@"BoardingFigureViewController" bundle:nil];
+            viewC = [[BufferViewController alloc] initWithNibName:@"BufferViewController" bundle:nil];
             break;
         }
         case 10:

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741923821A635FF6002276AD /* LayerTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741923801A635FF6002276AD /* LayerTimeViewController.m */; };
+		741923831A635FF6002276AD /* LayerTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741923811A635FF6002276AD /* LayerTimeViewController.xib */; };
 		742047001A5FE17B0090B722 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 742046FF1A5FE17B0090B722 /* Ship.png */; };
+		7440B7831A64B15600178440 /* BufferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440B7811A64B15600178440 /* BufferViewController.m */; };
+		7440B7841A64B15600178440 /* BufferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7440B7821A64B15600178440 /* BufferViewController.xib */; };
 		747F0D1D1A5B73AD005AA981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D1C1A5B73AD005AA981 /* main.m */; };
 		747F0D201A5B73AD005AA981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D1F1A5B73AD005AA981 /* AppDelegate.m */; };
 		747F0D231A5B73AD005AA981 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D221A5B73AD005AA981 /* MasterViewController.m */; };
@@ -66,8 +70,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7419237F1A635FF6002276AD /* LayerTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTimeViewController.h; sourceTree = "<group>"; };
+		741923801A635FF6002276AD /* LayerTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTimeViewController.m; sourceTree = "<group>"; };
+		741923811A635FF6002276AD /* LayerTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTimeViewController.xib; sourceTree = "<group>"; };
 		742046FF1A5FE17B0090B722 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
 		742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExplicitAnimationTest.xcodeproj; path = ExplicitAnimationTest/ExplicitAnimationTest.xcodeproj; sourceTree = "<group>"; };
+		7440B7801A64B15500178440 /* BufferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferViewController.h; sourceTree = "<group>"; };
+		7440B7811A64B15600178440 /* BufferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferViewController.m; sourceTree = "<group>"; };
+		7440B7821A64B15600178440 /* BufferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BufferViewController.xib; sourceTree = "<group>"; };
 		747F0D171A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoreAnimationAdvancedTechniquesCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747F0D1B1A5B73AD005AA981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747F0D1C1A5B73AD005AA981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,6 +147,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7419237C1A635FD7002276AD /* LayerTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7419237F1A635FF6002276AD /* LayerTimeViewController.h */,
+				741923801A635FF6002276AD /* LayerTimeViewController.m */,
+				741923811A635FF6002276AD /* LayerTimeViewController.xib */,
+			);
+			name = LayerTimeViewController;
+			sourceTree = "<group>";
+		};
 		742047721A5FEE670090B722 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +164,16 @@
 				742047791A5FEE680090B722 /* ExplicitAnimationTestTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7440B77D1A64B12F00178440 /* BufferViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7440B7801A64B15500178440 /* BufferViewController.h */,
+				7440B7811A64B15600178440 /* BufferViewController.m */,
+				7440B7821A64B15600178440 /* BufferViewController.xib */,
+			);
+			name = BufferViewController;
 			sourceTree = "<group>";
 		};
 		747F0D0E1A5B73AD005AA981 = {
@@ -184,6 +214,8 @@
 				74C962961A5E601700262378 /* SpecialLayerViewController */,
 				74C962A41A5E80E700262378 /* ImplicitAnimationViewController */,
 				74AF21FB1A5E8F17003AF8D7 /* ExplicitAnimationViewController */,
+				7419237C1A635FD7002276AD /* LayerTimeViewController */,
+				7440B77D1A64B12F00178440 /* BufferViewController */,
 				747F0D271A5B73AE005AA981 /* Main.storyboard */,
 				747F0D2A1A5B73AE005AA981 /* Images.xcassets */,
 				747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */,
@@ -411,9 +443,11 @@
 			files = (
 				747F0D611A5B8F83005AA981 /* LayerOfGeometryViewController.xib in Resources */,
 				747F0D6D1A5BA351005AA981 /* Digits.png in Resources */,
+				741923831A635FF6002276AD /* LayerTimeViewController.xib in Resources */,
 				747F0D631A5B9E14005AA981 /* 3.4.jpeg in Resources */,
 				747F0D691A5BA085005AA981 /* VisualEffectViewController.xib in Resources */,
 				747F0D4D1A5B7AAA005AA981 /* LayerTreeViewController.xib in Resources */,
+				7440B7841A64B15600178440 /* BufferViewController.xib in Resources */,
 				74C962A01A5E700100262378 /* mao.png in Resources */,
 				747F0D291A5B73AE005AA981 /* Main.storyboard in Resources */,
 				74AF22001A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib in Resources */,
@@ -452,10 +486,12 @@
 				74C9629D1A5E607B00262378 /* SpecialLayerViewController.m in Sources */,
 				74C962A81A5E810000262378 /* ImplicitAnimationViewController.m in Sources */,
 				747F0D531A5B85DC005AA981 /* BoardingFigureViewController.m in Sources */,
+				7440B7831A64B15600178440 /* BufferViewController.m in Sources */,
 				747F0D261A5B73AD005AA981 /* DetailViewController.m in Sources */,
 				74AF21FF1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m in Sources */,
 				747F0D601A5B8F83005AA981 /* LayerOfGeometryViewController.m in Sources */,
 				747F0D681A5BA085005AA981 /* VisualEffectViewController.m in Sources */,
+				741923821A635FF6002276AD /* LayerTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
